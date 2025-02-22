@@ -6,7 +6,6 @@ import java.util.List;
 public class CursosProfesores implements Servicios {
     private List<CursoProfesor> asignaciones = new ArrayList<>();
 
-    // Método adaptado para trabajar con CursoProfesor
     public void inscribir(CursoProfesor asignacion) {
         asignaciones.add(asignacion);
         System.out.println("Profesor asignado: " + asignacion.getId());
